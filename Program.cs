@@ -127,6 +127,8 @@ namespace day4_loops
             //masīvs ?
             //kā saraksts
 
+            //int[] masivs_liels = new int[234];
+
             int[] masivs = {100,200,300,400,500,600,700,701,800};
             string[] masivs_str = { "aaa", "bbb", "ccc", "ddd", "eee", "fff"};
             
@@ -197,11 +199,11 @@ namespace day4_loops
 
             //0 - 4,3MM
             uint mainiigais = 4000000000;
-            Console.WriteLine(mainiigais);
+            Console.WriteLine(Convert.ToString(mainiigais, 2));
 
             //-2,2MM -- +2,2MM
             int mainiigais_int = (int)mainiigais;
-            Console.WriteLine(mainiigais_int);
+            Console.WriteLine(Convert.ToString(mainiigais_int, 2));
 
             //0 - 255
             byte mainiigais_byte = (byte)mainiigais;
@@ -213,7 +215,7 @@ namespace day4_loops
             Console.WriteLine(mainiigais_long);
 
             //string str = "abcd";
-            //Console.WriteLine((char)str);
+            //Console.WriteLine((char)str[0]);
 
 
 
